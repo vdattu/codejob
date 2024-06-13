@@ -1,0 +1,25 @@
+.footer {   
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .branches {
+    margin-bottom: 20px;
+  }
+  
+  .city-name {
+    color: #c36;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .address {
+    margin-bottom: 15px;
+    color:white
+  }
+  
+  .copyright {
+    font-size: 12px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,55 @@
+.job-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.job-card {
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 8px rgba(1, 19, 5, 0.877);
+    background-color: #fff;
+    line-height: 1.2;
+}
+
+.job-card h3 {
+    margin-bottom: 10px;
+    color: rgb(204, 51, 102); /* Red color for names */
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+    font-size: 1.7rem;
+    font-style: normal;
+}
+
+.job-card p{
+    color:  #363f8f; /* Blue color for values */
+    font-family: "Arimo", sans-serif;
+    font-weight: 700;
+    margin: 5px 0;
+    font-style: normal;
+}
+
+.job-card .job-key  {
+    color: black;
+    font-weight: 400 !important;
+}
+
+.btns{
+    align-self: flex-start;
+    margin-top: auto; 
+}
+
+.applied-students-list{
+    /* Ensures button is at the end of the card */
+    /* Aligns button to the end of the card */
+    text-decoration: none;
+    background-color: #0ca2d9;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

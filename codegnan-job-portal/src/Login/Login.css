@@ -1,0 +1,106 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height:50vh;
+    margin-top: 2%;
+}
+.login-link-button{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.login .link{
+    margin: 0% 1%;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgba(255, 68, 0, 0.769);
+    padding: 10px;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.1)
+}
+
+.login .link.active {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.login .link.active.company {
+    background-color: rgba(128, 128, 128, 0.1);
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.login-container form {
+    width: 30vw;
+    margin: 20px;
+}
+
+.login-container label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    display: block;
+    color: black;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: black;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.forgot a,.bottom-div a{
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.login-container .btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: auto;
+}
+
+.login-container .btn[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.forgot-password{
+    font-size: 1rem;
+}
+
+@media (max-width:700px){
+    .login-container form {
+        width: 80%;
+    }
+    .login-link-button{
+        width: 100%;
+    }
+    .login .link{
+        font-size: 0.9rem;
+    }
+}
